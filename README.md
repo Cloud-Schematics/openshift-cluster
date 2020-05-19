@@ -32,4 +32,4 @@ On OS X this is achieved by entering the following into your terminal, replacing
 |default_pool_size| No of workers in default pool | 2 |
 |private_vlan_id|The private vlan ID. Run ic ks vlans `datacenter` to retrieve vlans||
 |public_vlan_id|The public vlan ID.Run ic ks vlans `datacenter` to retrieve vlans||
-|kube_version|The desired Kubernetes openshift version of the created cluster.|3.11_openshift|
+|kube_version|The desired Kubernetes openshift version of the created cluster.|4.3_openshift|

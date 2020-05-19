@@ -22,5 +22,5 @@ variable "cluster_name" {
   default = "cluster"
 }
 variable kube_version {
-  default = "3.11_openshift"
+  default = "4.3_openshift "
 }
