@@ -1,13 +1,13 @@
-variable "ibmcloud_api_key" {}
 variable "machine_type" {
-   default = "b2c.8x32"
+   default = "b3c.4x16"
 }
+
 variable "hardware" {
    default = "shared"
 }
 
 variable "datacenter" {
-  default = "wdc07"
+  default = "wdc04"
 }
 
 variable "default_pool_size" {
@@ -19,8 +19,9 @@ variable "private_vlan_id" {}
 variable "public_vlan_id" {}
 
 variable "cluster_name" {
-  default = "cluster"
+  default = "iks_openshift"
 }
+
 variable kube_version {
   default = "4.3_openshift"
 }
