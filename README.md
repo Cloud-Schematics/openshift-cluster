@@ -1,4 +1,4 @@
-# cluster
+# OpenShift cluster on classic infrastructure
 Simple template to deploy an IBM Cloud Kubernetes Openshift cluster
 
 
